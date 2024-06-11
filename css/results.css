@@ -1,0 +1,135 @@
+.font1 {
+    font-weight: bolder;
+}
+
+.font {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.box-blue {
+    color: white;
+    background-color: #060636;
+}
+
+.blue {
+    background-color: #060636 !important;
+}
+
+/* Above, we used important here to force the color of the button to change.*/
+
+h1 {
+    text-align: center;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    align-content: center;
+}
+
+.card {
+    width: 200px;
+    height: 400px;
+}
+
+.space {
+    margin: 10px;
+    margin-top: 40px;
+    height: 370px;
+    border-bottom: solid 1px black;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.topMain {
+    margin-top: 50px;
+
+
+}
+
+.bold {
+    font-weight: 500;
+    border-bottom: solid 1px black;
+}
+
+.background {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.border {
+    border: 3px solid black;
+
+}
+
+.align {
+    text-align: center;
+}
+
+.red {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+img {
+    border: 1px solid #ddd;
+    /* Gray border */
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+    margin: 10px;
+}
+
+img:hover {
+    box-shadow: 0 0 4px 3px #060636;
+}
+
+/* Above, is the custom css for the page*/
+
+
+
+
+@media(min-width: 641px) {
+    form {
+        height: 300px;
+
+
+
+    }
+
+    .red {
+        height: 50px;
+    }
+
+    .right {
+        margin-right: 25px;
+    }
+}
+
+/* Above, I added media queries for certain height and margins.

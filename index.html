@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.0/foundation-flex.min.css">
+
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Above is our link to foundation flex sheet and our own css link-->
+  <title>Greatest Sports Stories</title>
+</head>
+
+<body>
+  <section class=" row small-12  align-center  box-blue">
+    <h1 class="column small-12 font">The Greatest Sports Stories!</h1>
+    <!--<p class="column">The thrill of victory, the agony of defeat. You have cheered until your voice is hoarse, cried tears of joy and
+      disappointment. Sports often hold a special place in our hearts as we bond with athletes and teams. Use this site
+      to find the greatest sports stories ever told.</p> -->
+  </section>
+
+
+  <div class="row small-12 align-center top">
+
+    <h2 class="bold"> Please Pick A Sport</h2>
+
+  </div>
+
+
+
+
+  <section class="row small-12 medium-12 large-12 align-center  top change">
+
+    <div class="card space center column small-8 medium-5 large-2">
+      <img src="resources/football.jpg">
+      <div class="card-section">
+        <h4>Football</h4>
+        <p>Hail Mary passes. Snow bowls. 99-yard runs. From college to the pros, football is full of intriquing
+          stories.</p>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="card space center column small-8 medium-5 large-2">
+      <img src="resources/baseball.png">
+      <div class="card-section">
+        <h4>Baseball</h4>
+        <p>America's past time has been entertaining for generations. From legendary players to fictional heroes,
+          baseball is full of stories.</p>
+      </div>
+    </div>
+
+
+
+
+    <div class="card space center column small-8 medium-5 large-2">
+      <img src="resources/basketball.jpg">
+      <div class="card-section">
+        <h4 class="align">Basketball</h4>
+        <p class="border">From the dreams of March Madness to NBA Championships, basketball players bring talent,
+          hustle, and
+          personality to the game.</p>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="card space center column small-8 medium-5 large-2">
+      <img src="resources/boxing.png">
+      <div class="card-section">
+        <h4>Boxing</h4>
+        <p>Most boxers get their start in small, inner city gyms and try to fight their way to Olympic Gold and
+          boxing
+          titles.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Above, we made the title and the four areas of sports our site will display.-->
+  <!-- We used foundation flex design to build a responisive design. -->
+
+  <main class="topMain">
+    <form action="" class="" name="sportSubmisson">
+
+      <div class="row small-12 medium-12 large-12 align-center align ">
+
+        <label class=" bottom font column small-12" for="sportSubmisson">Please Pick A Sport:</label>
+
+
+        <select class=" align column small-7 medium-5 large-3" name="sports" id="sportSubmisson">
+          <option value="">&#128584;</option>
+          <option value="Basketball">Basketball</option>
+          <option value="Football">Football</option>
+          <option value="Boxing">Boxing</option>
+          <option value="Baseball">Baseball</option>
+        </select>
+
+      </div>
+
+      <div class="row small-12 medium-12 large-12 align-center align top">
+        <label class=" font bottom  column small-12" for="sportSubmisson" id="sportSubmisson"> Please Pick A Display
+          Type:</label>
+
+        <select class=" align column small-7 medium-5 large-3" name="medium" id="medium">
+          <option value="">&#128585;</option>
+          <option value="Book">Book</option>
+          <option value="Video">Video</option>
+
+        </select>
+      </div>
+
+      <div class="row small-12 medium-12 large-12 align-center top">
+
+        <a class=" blue button success" href="results.html">Submit</a>
+
+
+      </div>
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+
+  </main>
+
+  <!-- Above we created a form that takes user input on type of sport and type of medium wanted -->
+  <!-- We styled this section with features from foundation. -->
+  <!-- Last, I linked out two pages.-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/js/foundation.min.js"
+    crossorigin="anonymous"></script>
+  <script>
+    $(document).foundation();
+  </script>
+  <script src="js/script.js"></script>
+</body>
+<!-- Above, we added our script tages for foundation and jquery because foundation cannot be used without jquery.-->
+<!-- Also, we added our own script tag.-->
+
+</html>

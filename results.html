@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.0/foundation-flex.min.css">
+  <link rel="stylesheet" href="css/results.css" />
+  <title>Document</title>
+</head>
+<!-- Above, we link bootstrap again and our own css page-->
+
+<body>
+
+  <section class=" row small-12  align-center  box-blue">
+    <h1 class="column small-12 font">The Greatest Sports Stories!</h1>
+  </section>
+
+
+
+
+  <main class=" topMain "></main>
+
+  <section class=" row small-12 medium-12 large-12 align-justify">
+    <!-- Above, we initalize both of our rows we will be using for this page.-->
+    <form action="" class=" column  small-12 medium-5 large-3  " name="sportSubmisson">
+
+
+
+      <label class="  align bottom font1 column small-12" for="sportSubmisson">Please Pick A Sport:</label>
+
+
+      <select class=" align medium-6 " name="sports" id="sportSubmisson">
+        <option value="">&#128584;</option>
+        <option value="Basketball">Basketball</option>
+        <option value="Football">Football</option>
+        <option value="Boxing">Boxing</option>
+        <option value="Baseball">Baseball</option>
+      </select>
+
+
+
+
+      <label class=" align font1 bottom  column small-12" for="sportSubmisson" id="sportSubmisson"> Please Pick A
+        Display
+        Type:</label>
+
+      <select class=" align medium-6 " name="medium" id="medium">
+        <option value="">&#128585;</option>
+        <option value="Book">Book</option>
+        <option value="Video">Video</option>
+
+      </select>
+
+
+
+      <div class="column medium-12 align-center red">
+        <a class=" blue button success" href="#">Submit</a>
+      </div>
+
+
+
+
+
+    </form>
+
+    <!-- Above we created a form within the second row -->
+
+
+
+
+
+    <div class=" border column  small-12 medium-6 large-8 align-center  right">
+
+      <ul class="display"> 
+       <!-- <img src="Resources/thumbnail.jpg" alt="">
+        <img src="Resources/thumbnail.jpg" alt="">
+        <img src="Resources/thumbnail2.jpg" alt="">
+        <img src="Resources/thumbnail2.jpg" alt=""> -->
+        
+
+      </ul>
+
+    </div>
+
+
+    <!-- Above, is the area the results will be rendered this is also within the second row.-->
+    <!-- Also, we added thumbnails to see how they will stack on each other.-->
+    <!-- Note, the first row only includes the header of the page.-->
+
+
+
+  </section>
+
+
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/js/foundation.min.js"
+    crossorigin="anonymous"></script>
+  <script>
+    $(document).foundation();
+  </script>
+
+  <script src="js/results.js"></script>
+  <script src="./js/displaysearch.js"></script>
+</body>
+
+</html>
